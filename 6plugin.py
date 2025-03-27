@@ -129,7 +129,7 @@ while True:
             # Pause between lightning cycles
             time.sleep(random.uniform(2, 5))  # Random pause before the next cycle
 
-    if int(choice) == 6:
+    elif int(choice) == 6:
         lpack.setSmooth(30)  # Smooth transitions for the fireplace effect
         
         while True:
